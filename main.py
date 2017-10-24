@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style
 
 colorama_init()
 
-parser = argparse.ArgumentParser(description='Find a string in Excel files.')
+parser = argparse.ArgumentParser(description='Find a string in Excel files located in input folder.')
 parser.add_argument('match', metavar='s', type=str, 
                     help='the string to find in files')
 args = parser.parse_args()
